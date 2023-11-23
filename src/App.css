@@ -1,5 +1,5 @@
 body{
-  background-color: #070606;
+  background-color: #8e9c96;;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -12,28 +12,79 @@ body{
 .nav-ul li a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
    
 }
+
+
+/* this is checking */
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.nav-ul li a:hover {
+  color: rgb(255, 13, 0); /* Adjust the color on hover */
+}
+
+
+
+
+
+.logevents img{
+  width: 100px;
+  height: 100px;
+  /* border-radius: 100% solid #8e9c96; */
+  margin-left: 20px;
+  padding: 10px;
+  border: 5px solid  #8e9c96;
+  border-radius: 50%;
+}
+
+.logevents img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 5px solid #8e9c96;
+  border-radius: 50%;
+  transition: all 0.5s ease; /* Adjust the duration and timing function as needed */
+}
+
+.logevents img:hover {
+  transform: scale(1.2); /* Adjust the scale on hover */
+}
+
+
+
 .Navebar{
-  height: 90px; 
+  height: 100px; 
   background-color: #8e9c96;
   position: fixed;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
 }
-
-
-.nav-ul {
-  padding: 5px;
-  margin: 0;
+.contactusform{
+  height: 80vh;
  
+  background-color: #8e9c96;
 }
-.inputBox{
+
+
+
+.inputBox {
   margin-left: 30%;
   display: block;
   margin: 25px;
-  padding: 7px;
+  padding: 10px;
   width: 400px;
-  border: 1px solid skyblue;
+  border: 2px solid skyblue;
+  border-radius: 100px; /* Adjust the value for the desired border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .appButton{
@@ -41,8 +92,9 @@ body{
   padding: 10px;
   width: 150px;
   border-color: skyblue;
-  background-color: #ff6600;
+  /* background-color: #42f9fb; */
   border: 1px solid;
+  border-radius: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -76,27 +128,52 @@ body{
 
 
 .register{
-  background-color: rgb(43, 43, 44);
+  /* background-color: rgb(43, 43, 44); */
+  background-color: #8e9c96;
+  
+  padding-top: 100px;
+  margin: auto;
 }
-
+.register h1{
+  color: white;
+  padding-left: 27px;
+}
 
 
 /* ************homepagestyle is here************* */
-.homepage{
+/* .homepage{
  
-  background: url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXZlbnQlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  
   background-position: cover;
+  background-image: url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
+
   width: 100%;
   height: 90vh;
   padding-top: 90px;
+  background-color: #383534;
+ 
+} */
+.homepage {
+  background-image: linear-gradient(rgba(56, 53, 52, 0.5), rgba(56, 53, 52, 0.5)), url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px;
+  background-color: #383534;
 }
+
 
 .Homepage p{
   color: white;
 }
+.homehr{
+  color: #8e9c96;
+  
+}
 .check{
-  color: aqua;
-  font-size: 55px;
+  color:white;
+  font-size: 75px;
   text-align: center;
 }
 
@@ -104,13 +181,12 @@ body{
 
 .homepageText{
   color: white;
+  /* color: aqua; */
   text-align: center;
-  font-size: larger;
+  font-size: 50px;
 }
 
-.d-block{
-  height: 100vh;
-}
+
 
 
 .aboutUs{
@@ -119,10 +195,12 @@ body{
   background-color: #8e9c96;
   display: flex;
   justify-content: space-around;
+  
 }
 .aboutUsText{
+
   width: 40%;
-  padding-top: 40px;
+  padding-top: 150px;
   
 }
 
@@ -132,8 +210,129 @@ body{
 }
 
 .aboutImage{
-  padding-top: 40px;
+  padding-top: 150px;
+}
+.aboutusimage{
+  height:400px;
+  width: 700px;
+}
+
+.contactusform{
+  padding-top: 200px;
+ 
+}
+.contactusheadingone{
+  color: white;
+  margin-left: 65px;
+}
+.contactUsparagraph{
+
+  color: white;
+  margin-left: 65px;
+}
+
+
+.ContactusForm{
+  background-color: #8e9c96;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#contactme{
+  width: 50%;
+  height: 60px;
+  margin-top: 10px;
+  /* padding-top: 5px; */
+  /* padding-bottom: 5px; */
+  margin-left: 70px;
+}
+
+.check{
+  margin-top: 200px;
+}
+
+.footerEvent{
+  height: 40vh;
+  background-color: #8e9c96;
+}
+
+/* .logevents {
+  border: 2px solid red;
+  width: 5%;
+  margin-top: 40px;
+} */
+
+
+
+
+
+
+
+/* ********************service style is here********************* */
+.mainourServices{
+  height: 120vh;
+  background-color: #8e9c96;
+}
+
+.servicesheading{
+  padding-top: 70px;
+  padding-left: 70px;
+  color: white;
+}
+
+.whatwedo{
+  font-size: 40px;
+  padding-left: 70px;
+  color:white;
+  
+}
+
+
+.myAllCards{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
 }
 
 
 
+.iconssoial-blue {
+  font-size: 44px !important;
+  color: rgb(223, 224, 231);
+  transition: all 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.iconssoial-blue:hover {
+  font-size: 74px !important; /* Adjust the size on hover */
+  color: rgb(255, 13, 0);
+}
+
+
+li{
+  list-style-type: none;
+}
+.socialMediaIcons{
+  display: flex;
+}
+
+
+
+
+
+
+/* home page animation is here******************* */
+.check,
+.homepageText {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s; /* Add a delay for a staggered effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
