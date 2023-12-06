@@ -22,7 +22,7 @@ const SigUp =()=>{
     }
     return(
         <div className="register">
-             <h1>Login</h1>
+             <h1>SignUp</h1>
              <input className="inputBox" type="text" value={firstName} 
              onChange={(e)=> setFirstName(e.target.value)} placeholder=" Enter First Name" />
 

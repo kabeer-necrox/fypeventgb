@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SigUp from './SignUp';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
+import Services from './Services';
 
 export default function Homepage() {
   const [displayText, setDisplayText] = useState("Elevate Your Events in the Heart of the Himalayas");
@@ -15,7 +16,7 @@ export default function Homepage() {
       );
     }, 2000);
 
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+    return () => clearInterval(intervalId); 
 
   }, []);
 
@@ -27,7 +28,9 @@ export default function Homepage() {
         <hr className='homehr' />
       </div>
       <Aboutus />
+      <Services />
       <SigUp />
+      
       <Contactus />
     </>
   );

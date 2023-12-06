@@ -13,7 +13,7 @@ function Aboutus() {
         <img className='aboutusimage' src='https://targetjobs.co.uk/static/f3eafc47f88298ecb52a25f621f6242f/e3554/social-media-manager-job-description.webp' />
     </div>
     <div className='aboutUsText'>
-      <h2 style={{ color: 'white' }}>About Us</h2>
+      <h2 style={{ color: '#000108' }}>About Us</h2>
         <p>"Welcome to <b>GB EVENTS</b>  your premier event management partner in the breathtaking landscapes of Gilgit-Baltistan. With a passion for creating unforgettable moments, we specialize in weaving magic into weddings, capturing the essence of love through our expert photography, and orchestrating joyous celebrations for birthdays and parties. Our dedicated team brings creativity and precision to every event, ensuring a seamless and enchanting experience. Trust us to turn your dreams into reality, as we curate events that linger in hearts and memories. Let's craft moments that last a lifetime."</p>
         {/* <FacebookOutlinedIcon /> */}
         <div className='socialMediaIcons'>
@@ -22,7 +22,7 @@ function Aboutus() {
        
         </li>
         <li>
-          <Link to="https://www.facebook.com/profile.php?id=100008352319161"> <InstagramIcon className='iconssoial-blue' /></Link>
+          <Link to="https://www.instagram.com/kabeer_nekores/"> <InstagramIcon className='iconssoial-blue' /></Link>
        
         </li>
         <li>

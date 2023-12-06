@@ -1,10 +1,11 @@
 body{
-  background-color: #8e9c96;;
+  background-color:#ffffff;;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 
 }
+
 .nav-ul li{
   display: inline-block;
   padding: 20px;
@@ -26,31 +27,22 @@ body{
 }
 
 .nav-ul li a:hover {
-  color: rgb(255, 13, 0); /* Adjust the color on hover */
+  border-bottom: 5px solid red;
 }
 
 
 
 
 
-.logevents img{
-  width: 100px;
-  height: 100px;
-  /* border-radius: 100% solid #8e9c96; */
-  margin-left: 20px;
-  padding: 10px;
-  border: 5px solid  #8e9c96;
-  border-radius: 50%;
-}
 
 .logevents img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin-left: 20px;
   padding: 10px;
-  border: 5px solid #8e9c96;
+  border: 5px solid red;
   border-radius: 50%;
-  transition: all 0.5s ease; /* Adjust the duration and timing function as needed */
+  transition: all 0.5s ease; 
 }
 
 .logevents img:hover {
@@ -60,8 +52,8 @@ body{
 
 
 .Navebar{
-  height: 100px; 
-  background-color: #8e9c96;
+  height: 80px; 
+  background-color: #761b14;
   position: fixed;
   width: 100%;
   display: flex;
@@ -69,6 +61,7 @@ body{
   z-index: 1;
 }
 .contactusform{
+  
   height: 80vh;
  
   background-color: #8e9c96;
@@ -82,7 +75,7 @@ body{
   margin: 25px;
   padding: 10px;
   width: 400px;
-  border: 2px solid skyblue;
+  border: 2px solid #761b14;
   border-radius: 100px; /* Adjust the value for the desired border radius */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -92,9 +85,10 @@ body{
   padding: 10px;
   width: 150px;
   border-color: skyblue;
-  /* background-color: #42f9fb; */
+  background-color: #761b14;
   border: 1px solid;
   border-radius: 50px;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -129,30 +123,19 @@ body{
 
 .register{
   /* background-color: rgb(43, 43, 44); */
-  background-color: #8e9c96;
+  /* background-color: #8e9c96; */
   
   padding-top: 100px;
   margin: auto;
 }
 .register h1{
-  color: white;
+  color: black;
   padding-left: 27px;
 }
 
 
 /* ************homepagestyle is here************* */
-/* .homepage{
- 
-  
-  background-position: cover;
-  background-image: url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
 
-  width: 100%;
-  height: 90vh;
-  padding-top: 90px;
-  background-color: #383534;
- 
-} */
 .homepage {
   background-image: linear-gradient(rgba(56, 53, 52, 0.5), rgba(56, 53, 52, 0.5)), url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
   background-position: center;
@@ -161,6 +144,7 @@ body{
   height: 100vh;
   padding-top: 90px;
   background-color: #383534;
+  background-attachment: fixed;
 }
 
 
@@ -192,7 +176,7 @@ body{
 .aboutUs{
   width: 100%;
   height: 100vh;
-  background-color: #8e9c96;
+  /* background-color: #8e9c96; */
   display: flex;
   justify-content: space-around;
   
@@ -205,7 +189,7 @@ body{
 }
 
 .aboutUsText p{
-  color: white;
+  color: #000108;
   font-size: 18px;
 }
 
@@ -222,21 +206,23 @@ body{
  
 }
 .contactusheadingone{
-  color: white;
+  color: black;
   margin-left: 65px;
 }
 .contactUsparagraph{
 
-  color: white;
+  color: black;
   margin-left: 65px;
 }
 
 
 .ContactusForm{
-  background-color: #8e9c96;
+  /* background-color: #8e9c96; */
   height: 100vh;
   display: flex;
+  padding-top: 100px;
   flex-direction: column;
+  
 }
 #contactme{
   width: 50%;
@@ -252,38 +238,27 @@ body{
 }
 
 .footerEvent{
-  height: 40vh;
-  background-color: #8e9c96;
+  height: 60vh;
+  background-color: #761b14;
 }
-
-/* .logevents {
-  border: 2px solid red;
-  width: 5%;
-  margin-top: 40px;
-} */
-
-
-
-
-
 
 
 /* ********************service style is here********************* */
 .mainourServices{
   height: 120vh;
-  background-color: #8e9c96;
+  /* background-color: #8e9c96; */
 }
 
 .servicesheading{
   padding-top: 70px;
   padding-left: 70px;
-  color: white;
+  color: black;
 }
 
 .whatwedo{
   font-size: 40px;
   padding-left: 70px;
-  color:white;
+  color:black;
   
 }
 
@@ -298,13 +273,13 @@ body{
 
 .iconssoial-blue {
   font-size: 44px !important;
-  color: rgb(223, 224, 231);
+  color: #f94334;
   transition: all 0.3s ease; /* Adjust the duration and timing function as needed */
 }
 
 .iconssoial-blue:hover {
   font-size: 74px !important; /* Adjust the size on hover */
-  color: rgb(255, 13, 0);
+  color: #761b14;
 }
 
 
@@ -335,4 +310,16 @@ li{
   to {
     opacity: 1;
   }
+}
+
+
+/* ***************footer css is here**************************** */
+
+.footerEvent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+
 }
