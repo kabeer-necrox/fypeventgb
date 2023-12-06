@@ -34,7 +34,7 @@ function Services() {
             
               <Link to={"/birthday"}>click</Link>
              
-              <li>home</li>
+             
             </Card.Body>
            
            

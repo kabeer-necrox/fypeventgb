@@ -3,9 +3,9 @@ import React from "react";
 
 function BirthdayPage() {
   return (
-    <div>
-      <h2>Birthday Page</h2>
-      Add your birthday page content here
+    <div className="birthday">
+      <h2 className="">Birthday Page</h2>
+     
     </div>
   );
 }

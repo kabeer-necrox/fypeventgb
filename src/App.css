@@ -323,3 +323,10 @@ li{
   flex-wrap: wrap;
 
 }
+
+
+.birthday{
+  color: black;
+  border: 5px solid red;
+  height: 60vh;
+}

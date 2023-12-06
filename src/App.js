@@ -22,18 +22,19 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/add' element={ < Aboutus/>}/>
-          {/* <Route path='/update' element={<h1>update component</h1>} /> */}
+         
           <Route path='/SignUp' element={<SignUp />} />
          
           <Route path="/contactus" element={<Contactus />}/>
          
-          {/* <Route path="/home" element={<Aboutus to='Aboutus'/>} /> */}
-          <Route path="/birthday" element={<BirthdayPage />}/>
+          {/* <Route path="/birthday" element={<BirthdayPage />}/> */}
+          <Route path="/birthday" element={<Services />}/>
 
         </Routes>
       </BrowserRouter>
       {/* <Services /> */}
-      
+
+      <BirthdayPage />
       <Footer />
     </div>
   );
