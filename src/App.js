@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import BirthdayPage from './components/BirthdayPage';
 import { Home } from '@mui/icons-material';
 // import Serviceses from './Serviceses';
+import Photography from './components/Photography';
+import Weedings from './components/Weedings';
 
 
 function App() {
@@ -27,14 +29,18 @@ function App() {
          
           <Route path="/contactus" element={<Contactus />}/>
          
-          {/* <Route path="/birthday" element={<BirthdayPage />}/> */}
-          <Route path="/birthday" element={<Services />}/>
-
+          <Route path="/Services" element={<Services />}/>
+         
+          <Route path="/weedings" element={<Weedings />}/>
+          <Route path="/photography" element={<Photography />}/>
         </Routes>
       </BrowserRouter>
-      {/* <Services /> */}
-
+    
       <BirthdayPage />
+      <Photography />
+      <Weedings />
+
+      
       <Footer />
     </div>
   );

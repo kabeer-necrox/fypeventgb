@@ -327,6 +327,35 @@ li{
 
 .birthday{
   color: black;
-  border: 5px solid red;
-  height: 60vh;
+  
+  height: 100vh;
+  display: flex;
+  background-color: #8e9c96;
+  justify-content: space-between;
+  padding-top: 80px;
+
+}
+
+.photography{
+  color: black;
+  height: 100vh;
+  display: flex;
+  background-color: #8e9c96;
+  justify-content: space-between;
+  padding-top: 80px;
+
+}
+
+.weedingsmain{
+  color: black;
+  height: 100vh;
+  display: flex;
+  background-color: #8e9c96;
+  justify-content: space-between;
+  padding-top: 80px;
+
+}
+
+.noUnderline {
+  text-decoration: none !important;
 }

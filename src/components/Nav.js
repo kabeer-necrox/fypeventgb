@@ -13,11 +13,10 @@ return(
         <ul className="nav-ul">
             <li><Link to="/">Home</Link></li>  
             <li><Link to="/add">About Us </Link></li>  
-            <li><Link to="/update">Services</Link></li>  
-            {/* <li><Link to="/logout">Events</Link></li>   */}
+            <li><Link to="/services">Services</Link></li>  
             <li><Link to="/Contactus">Contact us</Link></li> 
             <li><Link to="/SignUp">Sign Up</Link></li> 
-            {/* <li><Link to="/login">Login</Link></li>  */}
+           
         </ul>
         </div>
       </div>

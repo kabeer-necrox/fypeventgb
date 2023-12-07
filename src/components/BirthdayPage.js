@@ -4,7 +4,15 @@ import React from "react";
 function BirthdayPage() {
   return (
     <div className="birthday">
-      <h2 className="">Birthday Page</h2>
+     <div>
+      <h1>services we offers</h1>
+     </div>
+     <div>
+      <h1>services Bakery products</h1>
+     </div>
+     <div>
+      <h1>docuration goods</h1>
+     </div>
      
     </div>
   );
