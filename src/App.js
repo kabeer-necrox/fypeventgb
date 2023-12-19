@@ -14,6 +14,7 @@ import { Home } from '@mui/icons-material';
 // import Serviceses from './Serviceses';
 import Photography from './components/Photography';
 import Weedings from './components/Weedings';
+//import BotChat from './BotChat';
 
 
 function App() {

@@ -4,7 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+// heere is the chate code===============================<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+
+
 root.render(
   <React.StrictMode>
     <App />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BotChat from "./BotChat";
 
 function Footer() {
   return (
@@ -26,8 +27,9 @@ function Footer() {
         <p> festivels.</p>
         <p> Reuions</p>
         <p> better Events.</p>
-        
+        {/* <BotChat /> */}
       </div>
+    
     
 
     </div>
