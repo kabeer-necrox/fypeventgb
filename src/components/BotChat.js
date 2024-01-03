@@ -35,7 +35,7 @@
      }, []);
 
      return (
-       <div id="webchat" style={{ width: '100%', height: '100vh' }} />
+       <div className='chattingisere' id="webchat" style={{ width: '100%', height: '3vh' }} />
      );
    };
 

@@ -3,7 +3,7 @@ import { MessageBox } from 'react-chat-elements';
 
 const Chatbox = () => {
   return (
-    <div>
+    <div className='chattingisere'>
       <MessageBox
         position={'left'}
         type={'text'}
