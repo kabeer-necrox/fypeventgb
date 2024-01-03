@@ -359,3 +359,50 @@ li{
 .noUnderline {
   text-decoration: none !important;
 }
+
+
+
+
+/* ****************************photography**************************** */
+.photography{
+  display: flex;
+  border:  2px solid red;
+  justify-content: space-between;
+}
+
+.photgraphyimage{
+  width: 400px;
+  height: 350px;
+}
+
+
+
+
+/* **************birthday csss****************** */
+
+.birthday{
+  display: flex;
+  border: 3px solid yellow;
+  justify-content: space-between;
+}
+.birthdayimagess{
+  width: 400px;
+  height: 300px;
+}
+
+
+
+
+
+/* *****************weedings Css******************** */
+
+.weedingsmain{
+  border: 3px solid pink;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weedingproducts{
+  width: 300px;
+  height: 300px;
+}

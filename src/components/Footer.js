@@ -27,10 +27,10 @@ function Footer() {
         <p> festivels.</p>
         <p> Reuions</p>
         <p> better Events.</p>
-        {/* <BotChat /> */}
+       
       </div>
     
-    
+     <BotChat />
 
     </div>
   );
